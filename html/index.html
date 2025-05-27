@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/Memory Game/style/style.css" />
+</head>
+<body class="bg-gray-100 flex flex-col items-center h-screen">
+    <h1 class="text-4xl font-bold mb-4 mt-8">Memory Game</h1>
+  <div id="game" class="text-center">
+    <div id="score-panel" class="mb-4">
+      <span id="moves" class="text-lg font-bold">Moves: 0</span>
+      <button id="restart" class="ml-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-200">Restart Game</button>
+    </div>
+    <div class="grid grid-cols-4 gap-2" id="card-grid">
+      <!-- Cards will be generated dynamically here -->
+    </div>
+  </div>
+
+  <script src="/javascript/app.js"></script>
+</body>
+</html>
+
